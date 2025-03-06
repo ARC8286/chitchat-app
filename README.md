@@ -34,29 +34,24 @@ A **feature-rich real-time chat application** built using **Node.js, Express, We
 
 ## 🛠️ **Installation & Setup**  
 
-### 1️⃣ **Clone the Repository**  
-```sh
-git clone <repository-url>
-cd chat-app
-```
 
-### 2️⃣ **Install Dependencies**  
+### 1 **Install Dependencies**  
 ```sh
 npm install express ws mongoose bcryptjs cors
 ```
 
-### 3️⃣ **Start MongoDB**  
+### 2 **Start MongoDB**  
 Make sure **MongoDB** is running:  
 ```sh
 mongod
 ```
 
-### 4️⃣ **Run the Server**  
+### 3 **Run the Server**  
 ```sh
 node server.js
 ```
 
-### 5️⃣ **Open in Browser**  
+### 4 **Open in Browser**  
 - Open **`auth.html`** to **Signup/Login**  
 - After logging in, you will be redirected to **`index.html`** to **start chatting** 🎉  
 
@@ -95,7 +90,7 @@ node server.js
 ---
 
 ## 👨‍💻 **Developer Notes**  
-
+This app are not complete for now.
 This project follows **best practices** for real-time web applications.  
 If you face any issues, feel free to **open an issue** or contribute!  
 
@@ -104,6 +99,4 @@ If you face any issues, feel free to **open an issue** or contribute!
 ## 📜 **License**  
 This project is **open-source** under the **MIT License**.  
 
----
-
-### 🎉 **Now, Enjoy Your Real-Time Chat Application!** 🚀  
+  
