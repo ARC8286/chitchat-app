@@ -8,9 +8,10 @@ const cors = require("cors");
 const app = express();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
-require('dotenv').config;
+require('dotenv').config();
 const port  = process.env.port || 5000
-mongoose.connect(process.env.mongourl, { useNewUrlParser: true, useUnifiedTopology: true });
+const mongoURL = process.env.mongourl;
+mongoose.connect(mongoURL);
 
 const User = mongoose.model("User", new mongoose.Schema({ username: String, password: String }));
 const Message = mongoose.model("Message", new mongoose.Schema({ username: String, text: String, timestamp: { type: Date, default: Date.now } }));
